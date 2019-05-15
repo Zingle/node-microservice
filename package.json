@@ -1,0 +1,26 @@
+{
+  "name": "@zingle/node-microservice",
+  "version": "0.0.1",
+  "description": "Zingle microservice project template for Node.js",
+  "main": "index.js",
+  "bin": {
+    "daemon": "bin/daemon.js"
+  },
+  "scripts": {
+    "test": "echo no tests >&2; exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Zingle/node-microservice.git"
+  },
+  "author": "Richard Remer <reanjr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zingle/node-microservice/issues"
+  },
+  "homepage": "https://github.com/Zingle/node-microservice#readme",
+  "dependencies": {
+    "systemd": "^0.3.1",
+    "tlsopt": "^1.0.1"
+  }
+}
