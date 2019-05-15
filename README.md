@@ -18,6 +18,7 @@ Features
    * **--tls-cert**: overrides **TLS_CERT** environment variable
    * **--tls-ca**: overrides **TLS_CA** environment variable
    * **--tls-key**: overrides **TLS_KEY** environment variable
+ * can be configured to auto-restart service when new version is installed
 
 New Project Checklist
 ---------------------
